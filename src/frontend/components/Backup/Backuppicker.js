@@ -15,8 +15,7 @@ const Backuppicker = () => {
             <option value="precipitation">Precipitation</option>
             <option value="carbonmonoxide">Pollution</option>
         </select>
-        <button className="select">Search</button>
-        </div>
+        </div><button className="select">Search</button>
     </>
   )
 }

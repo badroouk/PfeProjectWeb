@@ -1,39 +1,61 @@
 .buttonMenu{
     display: grid;
-    width: 200px;
-    text-align: center;
-    left: 45%;
-    top: 50%;
-    position: relative;
+    left: 42%;
+    position: absolute;
+    top: 24%;
 }
 
 .temp{
-    background-color: red;
+    background-color: orange;
     color: white;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
 }
 
 .humid{
-    background-color: blue;
+    background-color: orange;
     color: white;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
 }
 
 .lumin{
-    background-color: black;
+    background-color: orange;
     color: white;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
 }
 
 .precip{
     background-color: orange;
     color: white;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
 }
 
 .ultra{
-    background-color: rgb(80, 13, 80);
+    background-color: orange;
     color: white;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
 }
 
 
 .poll{
-    background-color: green;
+    background-color: orange;
     color: white;
+    width: 300px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
 }

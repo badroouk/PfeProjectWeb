@@ -11,9 +11,9 @@ function Monitoring(){
         <>
         <Header/>
         <div className="home">
+            <button type="button" className="btn actual">Actual Conditions</button>
             <button type="button" className="btn realtime" onClick={() => {navigate('/realtime');}}>Real-time <BsClock /></button>
             <button type="button" className="btn backup" onClick={() => {navigate('/backup');}}>Back-up <BsClockHistory/> </button>
-            <button type="button" className="btn actual">Actual Conditions</button>
         </div>
         <Routes>
           <Route path="/monitoring" element={<Monitoring />} />

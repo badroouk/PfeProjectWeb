@@ -77,9 +77,3 @@
   background-color: teal;
   color: white;
 }
-
-.body{
-  background-image: url(/src/images/forest.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-}
