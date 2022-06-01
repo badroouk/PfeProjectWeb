@@ -1,9 +1,9 @@
 import React from 'react';
 import {Routes, Route, useNavigate} from 'react-router-dom';
-import Monitoring from './components/Monitoring.js';
-import '../src/App.js'
-import '../src/home.css'
-import Header from '../src/components/Header.js';
+import Monitoring from './Monitoring.js';
+import '../../App.js'
+import './home.css';
+import Header from './Header.js';
 
 
 function Home(){

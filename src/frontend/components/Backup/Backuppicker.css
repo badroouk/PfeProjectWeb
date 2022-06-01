@@ -1,0 +1,19 @@
+.selectMenu{
+    font-size: 26px;
+    width: 200px;
+    height: 60px;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+    margin-top: 15px;
+    left: 45%;
+}
+
+.select{
+    width: 100px; 
+    height: 50px;
+}
+
+.selectDiv{
+    display: inline-grid;
+}

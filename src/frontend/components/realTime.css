@@ -1,0 +1,39 @@
+.buttonMenu{
+    display: grid;
+    width: 200px;
+    text-align: center;
+    left: 45%;
+    top: 50%;
+    position: relative;
+}
+
+.temp{
+    background-color: red;
+    color: white;
+}
+
+.humid{
+    background-color: blue;
+    color: white;
+}
+
+.lumin{
+    background-color: black;
+    color: white;
+}
+
+.precip{
+    background-color: orange;
+    color: white;
+}
+
+.ultra{
+    background-color: rgb(80, 13, 80);
+    color: white;
+}
+
+
+.poll{
+    background-color: green;
+    color: white;
+}
