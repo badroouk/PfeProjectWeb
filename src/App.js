@@ -19,19 +19,19 @@ function App() {
 
               const content = await response.json();
 
-              setName(content.name);
+              setName(content.email);
           }
       )();
   });
   return (
     <BrowserRouter>
-    <Nav name={name} />
+    <Nav name={name} setName={setName} />
     <div className="App">
       <main className="form-signin">
       <Routes>
         <Route  path="/" element={<Home  />} />
         <Route  path="/register" element={<Register />} />
-        <Route  path="/login" element={<Login />} />
+        <Route  path="/login" element={<Login setName={setName} />} />
         <Route path="/monitoring" element={<Monitoring />} />
       </Routes>
       </main>
